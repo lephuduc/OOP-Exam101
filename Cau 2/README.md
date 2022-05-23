@@ -89,7 +89,7 @@ int main() {
 	a.giaTri();
 	b.giaTri();
 
-	PhanSo::maxPS(a, b).Xuat();
+	maxPS(a, b).Xuat();
 	return 0;
 }
 ```
