@@ -15,7 +15,7 @@ public:
 	void Nhap();
 	void Xuat();
 	double giaTri();
-	static PhanSo maxPS(PhanSo a, PhanSo b);
+	friend PhanSo maxPS(PhanSo a, PhanSo b);
 };
 ``` 
 Đây chỉ là header, chỉ mới có các khai báo thuộc tính và phương thức của đề yêu cầu, ta bắt đầu định nghĩa các hàm 
