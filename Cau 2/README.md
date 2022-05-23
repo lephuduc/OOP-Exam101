@@ -11,6 +11,8 @@ class PhanSo {
 public:
 	PhanSo();
 	PhanSo(int tu, int mau);
+	~PhanSo();
+	PhanSo(const PhanSo&);
 	void rutGon();
 	void Nhap();
 	void Xuat();
